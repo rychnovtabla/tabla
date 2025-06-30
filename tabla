@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gymnázium Rychnov nad Kněžnou – publikace fotografií</title>
+  <meta name="description" content="Fotografická publikace Gymnázia v Rychnově nad Kněžnou – přehled tabulí a skupinových snímků profesorů i maturantů z let 1872–2010.">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      width: auto;
+      height: auto;
+      border: 5px solid #333;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Oprava zobrazení na menších obrazovkách (např. telefony) */
+    @media (max-width: 600px) {
+      body {
+        align-items: flex-start;
+        padding-top: 0;
+      }
+
+      img {
+        max-height: 100vh;
+        height: auto;
+        object-fit: contain;
+        margin: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="KNIHA INTERNET.jpeg" alt="Tabule a skupinové fotografie Gymnázia v Rychnově nad Kněžnou">
+</body>
+</html>
